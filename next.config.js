@@ -2,6 +2,9 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
+ images:{
+  domains:["cdn.worldvectorlogo.com"]
+ }
 }
 
 module.exports = nextConfig
