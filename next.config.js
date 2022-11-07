@@ -4,6 +4,10 @@ const nextConfig = {
   swcMinify: true,
  images:{
   domains:["cdn.worldvectorlogo.com"]
+
+ },
+ experimental:{
+  appDir:true
  }
 }
 

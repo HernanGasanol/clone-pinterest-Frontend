@@ -1,5 +1,5 @@
 import React from 'react'
-import fakeData from '../../fakeData'
+import fakeData from '../../../fakeData'
 import Card from './Card'
 
 export const GridCards = () => {

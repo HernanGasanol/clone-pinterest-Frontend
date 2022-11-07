@@ -6,8 +6,9 @@ import NavMenuRight from "./NavMenuRight";
 
 
 const Nav = () => {
+
   return (
-    <nav className="flex sticky top-0 bg-white shadow-sm z-40 w-full justify-center px-4 items-center py-4 gap-2">
+    <nav className="hidden md:flex sticky top-0 bg-white shadow-sm z-40 w-full justify-center px-4 items-center py-4 gap-2">
      
       <div className="flex space-x-4 mr-4  items-center">
         <div className="w-7 min-w-6 ">
@@ -15,8 +16,8 @@ const Nav = () => {
             src={"https://cdn.worldvectorlogo.com/logos/pinterest-1.svg"}
             alt=""
             layout="responsive"
-            width="100%"
-            height="100%"
+            width={100}
+            height={100}
           />
         </div>
         <NavMenuLeft />

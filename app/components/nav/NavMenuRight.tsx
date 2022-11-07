@@ -4,6 +4,7 @@ import {AiFillMessage} from 'react-icons/ai'
 import {IoIosArrowDown} from 'react-icons/io'
 
 const NavMenuRight  = () => {
+   
   return (
     <div className='flex items-center space-x-5'>
         <IoMdNotifications className='text-[30px] text-[#767676]'/>
